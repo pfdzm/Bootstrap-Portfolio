@@ -11,11 +11,12 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="d-flex flex-column h-100 bg-light">
     <div class="bg-white border-bottom">
       <nav class="container navbar navbar-expand-lg navbar-light bg-white py-0">
-        <a class="navbar-brand bg-info text-light p-3" href="#"
+        <a class="navbar-brand bg-warning p-3 text-white" href="index.html"
           >Pablo Fernandez</a
         >
         <button
@@ -49,11 +50,21 @@
     </div>
     <main role="main" class="flex-shrink-0">
       <div class="container my-5 border bg-white">
+        <div class="row jumbotron bg-warning">
+          <p>
+            The form below does not actually work yet - we have only just
+            finished the frontend chapter in the ESMT Berlin Coding Bootcamp.
+            Until I implement that functionality, please reach out to me on
+            <a href="https://github.com/pfdzm">GitHub</a> or
+            <a href="https://www.linkedin.com/in/pablofdezm/">LinkedIn</a>.
+          </p>
+        </div>
         <div class="row">
           <div class="col-lg-12">
-            <h1 class="text-info border-bottom">Contact me</h1>
+            <h1 class="text-warning border-bottom">Contact me</h1>
           </div>
         </div>
+
         <div class="row">
           <div class="col-lg-12">
             <form>
@@ -87,7 +98,7 @@
                   placeholder="Drop me a line!"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-info mb-3">Submit</button>
+              <button type="submit" class="btn btn-warning mb-3">Submit</button>
             </form>
           </div>
         </div>

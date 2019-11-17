@@ -11,11 +11,12 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="d-flex flex-column h-100 bg-light">
+  <body class="d-flex flex-column h-100">
     <div class="bg-white border-bottom">
       <nav class="container navbar navbar-expand-lg navbar-light bg-white py-0">
-        <a class="navbar-brand bg-info text-light p-3" href="#"
+        <a class="navbar-brand bg-warning p-3 text-white" href="index.html"
           >Pablo Fernandez</a
         >
         <button
@@ -51,7 +52,15 @@
       <div class="container my-5 border bg-white">
         <div class="row">
           <div class="col-lg-12">
-            <h1 class="text-info border-bottom">Portfolio</h1>
+            <h1 class="border-bottom text-warning">Portfolio</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>
+              Below you will find some projects that I have been working on
+              recently. The source can always be found on my GitHub.
+            </p>
           </div>
         </div>
         <div class="row">
@@ -59,55 +68,78 @@
             <div class="card-deck">
               <div class="card">
                 <img
-                  src="https://picsum.photos/id/33/300/200?grayscale"
+                  src="./assets/images/cooknbook.png"
                   class="card-img-top"
                   alt="placeholder image"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-
+                  <h5 class="card-title">cooknbook</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Developed for the first project week for the ESMT Berlin
+                    Coding Bootcamp. Working in a team of 3 and using GitHub to
+                    track issues and assign work. Cooknbook queries three
+                    different APIs to retrieve nearby restaurants, display them
+                    on a map and display alternative recipe ideas (in case
+                    you're on a budget!).
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="https://dnedaniele.github.io/cooknbook/"
+                      >Live demo!</a
+                    >
+                  </p>
+                  <p class="card-text">
+                    <a href="https://github.com/dnedaniele/cooknbook.git"
+                      >Source</a
+                    >
                   </p>
                 </div>
               </div>
               <div class="card">
                 <img
-                  src="https://picsum.photos/id/10/300/200?grayscale"
+                  src="./assets/images/wordguessgame.png"
                   class="card-img-top"
                   alt="placeholder image"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Word Guess Game</h5>
                   <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    Developed for a homework assignment for the ESMT Berlin
+                    Coding Bootcamp. It is a simple JavaScript implementation of
+                    the classic game Hangman, with a hacker theme. Enter at your
+                    own risk!
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="https://pfdzm.github.io/Word-Guess-Game/"
+                      >Live demo!</a
+                    >
+                  </p>
+                  <p class="card-text">
+                    <a href="https://github.com/pfdzm/Word-Guess-Game.git"
+                      >Source</a
+                    >
                   </p>
                 </div>
               </div>
               <div class="card">
                 <img
-                  src="https://picsum.photos/id/100/300/200?grayscale"
+                  src="./assets/images/codequiz.png"
                   class="card-img-top"
                   alt="placeholder image"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Code Quiz</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Developed for a homework assignment for the ESMT Berlin
+                    Coding Bootcamp. It is a simple JavaScript quiz that will
+                    test you on your knowledge. Features difficulty selector
+                    (loads different set of questions), a timer, a highscores
+                    page using localStorage
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="https://pfdzm.github.io/Code-Quiz/">Live demo!</a>
+                  </p>
+                  <p class="card-text">
+                    <a href="https://github.com/pfdzm/Code-Quiz.git">Source</a>
                   </p>
                 </div>
               </div>
@@ -116,55 +148,81 @@
             <div class="card-deck">
               <div class="card">
                 <img
-                  src="https://picsum.photos/id/42/300/200?grayscale"
+                  src="./assets/images/dayplanner.png"
                   class="card-img-top"
                   alt="placeholder image"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-
+                  <h5 class="card-title">Day Planner</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    A simple JavaScript Day planner app - uses localStorage to
+                    let a user plan out the day ahead. Uses Moment JS to work
+                    with time and date.
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="https://github.com/pfdzm/Day-Planner/"
+                      >Live demo!</a
+                    >
+                  </p>
+                  <p class="card-text">
+                    <a href="https://github.com/pfdzm/Day-Planner.git"
+                      >Source</a
+                    >
                   </p>
                 </div>
               </div>
               <div class="card">
                 <img
-                  src="https://picsum.photos/id/69/300/200?grayscale"
+                  src="./assets/images/weatherdashboard.png"
                   class="card-img-top"
                   alt="placeholder image"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Weather Dashboard</h5>
                   <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    Developed for a homework assignment for the ESMT Berlin
+                    Coding Bootcamp. This project uses the Open Weather API for
+                    weather, the Leaflet JS for the map, OpenStreetMap for map
+                    tiles and Bootstrap for layout. The user can optionally
+                    search for their current location, which uses the
+                    Geolocation API. This then displays the current weather as a
+                    label on the map as well as a five day forecast below.
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="https://pfdzm.github.io/Weather-Dashboard/"
+                      >Live demo!</a
+                    >
+                  </p>
+                  <p class="card-text">
+                    <a href="https://github.com/pfdzm/Weather-Dashboard.git"
+                      >Source</a
+                    >
                   </p>
                 </div>
               </div>
               <div class="card">
                 <img
-                  src="https://picsum.photos/id/237/300/200?grayscale"
+                  src="./assets/images/nytimessearch.png"
                   class="card-img-top"
                   alt="placeholder image"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">New York Times archive search</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Developed for an in-class assignment for the ESMT Berlin
+                    Coding Bootcamp. It is a simple JavaScript frontend to
+                    search the New York Times archive using a user-provided
+                    search term. Additional search parameters are implemented.
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="https://pfdzm.github.io/NYTimesSearch/"
+                      >Live demo!</a
+                    >
+                  </p>
+                  <p class="card-text">
+                    <a href="https://github.com/pfdzm/NYTimesSearch.git"
+                      >Source</a
+                    >
                   </p>
                 </div>
               </div>
