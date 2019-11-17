@@ -1,5 +1,3 @@
-# Bootstrap-Portfolio
+# Portfolio
 
-Repo for the second homework assignment for the boot camp
-
-## Second level
+This (static) website will be updated as I work on more and more projects.
